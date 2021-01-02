@@ -50,7 +50,7 @@ int sumRangeSegTree(int a, int b, int n)
         so we do +1 from the order of its left end (we cannot do directly the left end because it could be negative)
         to the left in the Segment Tree (and adapted to the Segment Tree data structure) and we store the answer.
 
-        We do the same to all other segments ordered by the appeareance of their right end.
+        We do the same to all other segments ordered by the appearance of their right end.
 */
 
 
