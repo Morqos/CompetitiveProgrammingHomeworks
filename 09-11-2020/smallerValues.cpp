@@ -36,7 +36,7 @@ int sumRangeFenwickTree(int k, int n)
 struct str
 {
     int val;
-    int type;
+    int type; // type == 1 -> in array; type == 0 -> in query
     int index;
     int order;
     int left;
@@ -54,7 +54,7 @@ int main()
     int n, m;
     scanf("%d %d", &n, &m);
 
-    vector<str> arr; // ( val, type ): type == 1 -> in array; type == 0 -> in query
+    vector<str> arr;
 
     for(int i = 1; i <= n; i++)
     {
